@@ -1,7 +1,7 @@
 # Pytest python example with automated testing
 
 This is a minimal viable example of pytest with an automated
-run of tests for every push/merge into the `main` branch and a auto
+run of tests for every push/merge into the `main` branch and an auto
 `schedule` to run the tests every day.
 
 It also shows an example of how to handle sensitive information (such as api keys) in your pipeline using secrets.
@@ -9,8 +9,8 @@ It also shows an example of how to handle sensitive information (such as api key
 ## How does this work?
 
 - At every push and/or merge to the `main` branch, `pytest` is used to run the tests which are written in the `./tests` directory of this repo
-- The exact same tests may be ran locally (see "Run tests locally")
-- Automated testing with a pipline and secrets (using Github actions - but this process is the same for any provider; Gitlab, bitbucket etc) see https://github.com/KarmaComputing/pytest-example-automated-testing/actions
+- The exact same tests may be run locally (see "Run tests locally")
+- Automated testing with a pipeline and secrets (using Github actions - but this process is the same for any provider; Gitlab, bitbucket etc) see https://github.com/KarmaComputing/pytest-example-automated-testing/actions
 
 ## Setup (local)
 
@@ -34,7 +34,7 @@ python -m pytest -vv
 
 ## Example Output (when tests pass)
 ```
-collected 1 item                                                                                                                  
+collected 1 item                                                                                                                   
 
 tests/test_app.py::test_add PASSED                                                                                          [100%]
 
